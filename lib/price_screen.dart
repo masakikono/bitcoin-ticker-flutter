@@ -54,7 +54,7 @@ class _PriceScreenState extends State<PriceScreen> {
     );
   }
 
-  Map<String, String> conValues = {};
+  Map<String, String> coinValues = {};
   bool isWaiting = false;
 
   void getData() async {
